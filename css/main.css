@@ -1,0 +1,1155 @@
+#wrap {
+    background-color: #ededed;
+}
+
+/* html,
+body {
+    overflow: auto;
+} */
+
+#wrap>section {
+    height: 100vh;
+}
+
+#title {
+    width: 1360px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.circle1 {
+    border: 1px solid #000;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    margin-top: 25px;
+    margin-left: -5px;
+
+}
+
+.line1 {
+    border-left: 1px solid #000;
+    margin-top: 10px;
+    height: 550px;
+
+}
+
+.line2 {
+    border-right: 1px solid #000;
+    height: 550px;
+    margin-top: -670px;
+}
+
+.circle2 {
+    border: 1px solid #000;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    margin: 0 auto;
+    margin-right: -5px;
+    margin-top: 10px;
+}
+
+#title h1 {
+    padding-top: 110px;
+    font-size: 80px;
+    font-weight: 300;
+}
+
+#title h1 mark {
+    background-color: #d7b5ac;
+}
+
+#title p {
+    font-size: 33px;
+    position: absolute;
+    margin-top: 120px;
+    margin-left: -10px;
+}
+
+.menu {
+    position: absolute;
+    right: 30px;
+    margin-top: -400px;
+
+}
+
+.menu li {
+    margin-bottom: 40px;
+}
+
+.menu li a {
+    font-size: 25px;
+}
+
+.menu li a:hover {
+    color: #d7b5ac;
+}
+
+.menu ul li.on a {
+    position: relative;
+}
+
+.on:hover .sub_menu {
+    display: block;
+}
+
+.sub_menu {
+    display: none;
+}
+
+
+
+.sub_menu li {
+    margin-top: 20px;
+}
+
+.sub_menu li a {
+    font-size: 20px;
+}
+
+/******title 끝*****/
+
+
+#about {
+    width: 1360px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#about h2 {
+    font-size: 30px;
+    padding-top: 50px;
+    box-shadow: inset 0px -0.5em 0 0 #d7b5ac;
+    width: fit-content;
+
+}
+
+.myimg {
+    margin: 50px;
+    margin-top: 50px;
+    position: relative;
+}
+
+
+.myimg2 {
+    position: absolute;
+    margin-top: -702px;
+    opacity: 1;
+}
+
+.myimg2:hover .myimg1 {
+    opacity: 1;
+}
+
+.myimg2:hover {
+    opacity: 0;
+    transition: all 0.6s;
+}
+
+.arr {
+    position: absolute;
+    margin-left: 150px;
+    margin-top: -70px;
+}
+
+.arr p {
+    margin-left: 105px;
+    margin-top: -35px;
+    font-size: 14px;
+
+}
+
+.one {
+    position: relative;
+}
+
+.one h3 {
+    font-size: 30px;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: -700px;
+    margin-left: 115px;
+    padding-bottom: 20px;
+}
+
+.one p {
+    margin-left: 700px;
+    padding-top: 10px;
+    color: #aaa;
+}
+
+.one p span {
+    padding-left: 20px;
+    position: absolute;
+    width: 300px;
+    text-align: left;
+    color: #000;
+}
+
+
+.one p:nth-child(2) span {
+    margin-left: 17px;
+}
+
+.one p:nth-child(3) span {
+    margin-left: 22px;
+}
+
+.one p:nth-child(4) span {
+    margin-left: 10px;
+}
+
+.one p:nth-child(5) span {
+    margin-left: 6px;
+}
+
+.two {
+    position: relative;
+}
+
+.two h3 {
+    font-size: 30px;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 70px;
+    margin-left: 115px;
+    padding-bottom: 20px;
+}
+
+.two p {
+    margin-left: 700px;
+    padding-top: 10px;
+}
+
+.two p span {
+    font-size: 30px;
+}
+
+.three {
+    position: relative;
+}
+
+.three h3 {
+    font-size: 30px;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 70px;
+    margin-left: 115px;
+    padding-bottom: 20px;
+}
+
+.three p {
+    margin-left: 710px;
+    padding-top: 10px;
+    color: #aaa;
+}
+
+.progress-bar {
+    width: 200px;
+    height: 10px;
+    background-color: #dedede;
+    position: absolute;
+    right: 0;
+    margin-top: -118px;
+    margin-right: 320px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.progress-bar .progress1 {
+    width: 150px;
+    height: 10px;
+    padding: 0;
+    background-color: #d7b5ac;
+    border-radius: 8px;
+    overflow: hidden;
+
+}
+
+
+
+.progress-bar2 {
+    width: 200px;
+    height: 10px;
+    background-color: #dedede;
+    position: absolute;
+    right: 0;
+    margin-top: -90px;
+    margin-right: 320px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+
+.progress-bar2 .progress2 {
+    width: 170px;
+    height: 10px;
+    padding: 0;
+    background-color: #d7b5ac;
+    border-radius: 8px;
+    overflow: hidden;
+    /* animation: stack2 2s 1; */
+}
+
+/* @keyframes stack2 {
+    0% {
+        width: 0;
+        opacity: 0.4;
+    }
+
+    100% {
+        width: 90%;
+        opacity: 1;
+    }
+} */
+
+.progress-bar3 {
+    width: 200px;
+    height: 10px;
+    background-color: #dedede;
+    position: absolute;
+    right: 0;
+    margin-top: -62px;
+    margin-right: 320px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.progress-bar3 .progress3 {
+    width: 170px;
+    height: 10px;
+    padding: 0;
+    background-color: #d7b5ac;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+
+
+.progress-bar4 {
+    width: 200px;
+    height: 10px;
+    background-color: #dedede;
+    position: absolute;
+    right: 0;
+    margin-top: -38px;
+    margin-right: 320px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.progress-bar4 .progress4 {
+    width: 160px;
+    height: 10px;
+    padding: 0;
+    background-color: #d7b5ac;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+
+.progress-bar5 {
+    width: 200px;
+    height: 10px;
+    background-color: #dedede;
+    position: absolute;
+    right: 0;
+    margin-top: -10px;
+    margin-right: 320px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.progress-bar5 .progress5 {
+    width: 140px;
+    height: 10px;
+    padding: 0;
+    background-color: #d7b5ac;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+
+.graph {
+    position: absolute;
+    right: 0;
+    margin-top: -130px;
+    margin-right: 250px;
+}
+
+.graph p {
+    font-size: 14px;
+    padding-top: 12px;
+    color: #aaa;
+}
+
+
+/*****about 끝******/
+
+
+#video {
+    position: relative;
+    width: 1360px;
+    margin: 0 auto;
+}
+
+
+
+#video h4 {
+    font-size: 30px;
+    padding-top: 50px;
+    box-shadow: inset 0px -0.5em 0 0 #ffeeca;
+    width: fit-content;
+}
+
+.circle3 {
+    border: 1px solid #000;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    margin-top: 30px;
+
+}
+
+.line3 {
+    border-top: 1px solid #000;
+    width: 1330px;
+    margin-top: -7px;
+    margin-left: 30px;
+}
+
+.circle4 {
+    border: 1px solid #000;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    bottom: 20px;
+    right: 0;
+}
+
+.line4 {
+    border-bottom: 1px solid #000;
+    width: 1320px;
+    position: absolute;
+    bottom: 25px;
+    margin-left: 10px;
+}
+
+button {
+    background-color: transparent;
+    border: 0px;
+    cursor: pointer;
+    font-size: 23px;
+    transition: all 0.2s ease-in-out;
+    font-family: 'ChosunSm';
+
+}
+
+button:hover {
+    transform: scale(1.1);
+    color: #f3a1a1;
+    opacity: 0.5;
+
+}
+
+.tab {
+    display: flex;
+    margin-top: 80px;
+    margin-left: 20px;
+}
+
+.tab li {
+    font-size: 23px;
+    margin-right: 12px;
+    border-right: 1px solid #000;
+    padding-right: 12px;
+    line-height: 1em;
+}
+
+.tab li:last-child {
+    border-right: none;
+}
+
+
+.myvid .cont>div {
+    display: none;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 600px;
+}
+
+.myvid .cont>div:first-child {
+    display: flex;
+}
+
+.backimg {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    margin-top: -500px;
+    margin-left: -100px;
+    opacity: 35%;
+}
+
+.backimg2 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    opacity: 50%;
+    margin-top: -600px;
+    margin-left: 450px;
+}
+
+.myvid .cont>div .youtube {
+    position: absolute;
+    width: 700px;
+    height: 480px;
+    margin-left: 20px;
+}
+
+.myvid .cont>div .youtube iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.myvid .cont>div .txt {
+    position: absolute;
+    width: 560px;
+    right: 0;
+}
+
+.myvid .cont>div .txt h5 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    margin-top: -505px;
+    border-bottom: 1px solid #000;
+    padding-bottom: 30px;
+    position: relative;
+    text-align: left;
+}
+
+.myvid .cont>div .txt p {
+    margin-top: 30px;
+    width: 500px;
+    margin-left: 35px;
+    font-size: 17px;
+    margin-bottom: 60px;
+    text-align: left;
+}
+
+/*****video******/
+
+
+
+#photo {
+    width: 1360px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.circle5 {
+    border: 1px solid #000;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    margin-top: 30px;
+
+}
+
+.line5 {
+    border-top: 1px solid #000;
+    width: 1330px;
+    margin-top: -7px;
+    margin-left: 30px;
+}
+
+.circle6 {
+    border: 1px solid #000;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    bottom: 20px;
+    right: 0;
+}
+
+.line6 {
+    border-bottom: 1px solid #000;
+    width: 1320px;
+    position: absolute;
+    bottom: 25px;
+    margin-left: 10px;
+}
+
+
+
+#photo h6 {
+    font-size: 30px;
+    padding-top: 50px;
+    box-shadow: inset 0px -0.5em 0 0 #e3c7c7;
+    width: fit-content;
+}
+
+
+
+
+.slider {
+    margin-top: 75px;
+}
+
+.slider .contents {
+    position: relative;
+    overflow: hidden;
+    width: 450px;
+    height: 600px;
+}
+
+
+.slider .contents .basic {
+    /*margin-top: 120px;*/
+    box-sizing: border-box;
+    /*margin-left: 100px;*/
+
+}
+
+.slider .contents .basic img {
+    width: 450px;
+    height: 550px;
+    margin-top: 50px;
+    margin-left: 70px;
+}
+
+
+.slider .contents .over {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #fff;
+    opacity: 0;
+    transition: all 0.3s;
+    width: 72.7%;
+    height: 100%;
+    margin-top: 50px;
+    margin-left: 70px;
+}
+
+.slider .contents:hover .over {
+    opacity: 1;
+}
+
+.slider .contents .over p {
+    font-size: 18px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+}
+
+.txt {
+    text-align: center;
+    margin-top: 80px;
+    font-size: 18px;
+}
+
+.txt span {
+    text-decoration: underline;
+}
+
+
+
+.slider .slick-slide {
+    margin: 0 30px;
+}
+
+.slider .slick-arrow {
+    border: 0;
+    background-color: transparent;
+    width: 50px;
+    height: 50px;
+    border-top: 2px solid #000;
+    border-right: 2px solid #000;
+    font-size: 0;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-top: 30px;
+}
+
+.slider .slick-prev {
+    left: -150px;
+    z-index: 10;
+    transform: rotate(-135deg);
+}
+
+.slider .slick-next {
+    right: -150px;
+    transform: rotate(45deg);
+}
+
+
+/******photo*******/
+
+
+
+
+
+
+#web {
+    width: 1360px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#web h6 {
+    font-size: 30px;
+    padding-top: 50px;
+    box-shadow: inset 0px -0.5em 0 0 #ffd6d6;
+    width: fit-content;
+
+}
+
+
+.circle9 {
+    border: 1px solid #000;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    margin-top: 30px;
+
+}
+
+.line9 {
+    border-top: 1px solid #000;
+    width: 1330px;
+    margin-top: -7px;
+    margin-left: 30px;
+}
+
+.circle10 {
+    border: 1px solid #000;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    bottom: 20px;
+    right: 0;
+}
+
+.line10 {
+    border-bottom: 1px solid #000;
+    width: 1320px;
+    position: absolute;
+    bottom: 25px;
+    margin-left: 10px;
+}
+
+
+.pb {
+    padding-top: 80px;
+    font-family: 'KOTRA_BOLD-Bold';
+    color: #013586;
+    font-size: 26px;
+}
+
+
+
+.data {
+    padding-top: 70px;
+}
+
+.data p span {
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+.data p {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+
+
+.color {
+    padding-top: 70px;
+}
+
+.color p span {
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+
+
+.one_color {
+    border: 1px solid #013586;
+    background-color: #013586;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 5px;
+
+}
+
+.two_color {
+    border: 1px solid #fff;
+    background-color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 108px;
+
+}
+
+.flex {
+    display: flex;
+}
+
+.flex p {
+    margin-right: 40px;
+    margin-top: 90px;
+}
+
+
+.info {
+    padding-top: 70px;
+}
+
+.info p span {
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+.info p {
+    font-size: 17px;
+}
+
+.moni {
+    position: absolute;
+    right: 0;
+    margin-top: -600px;
+}
+
+.moni-t {
+    position: absolute;
+    right: 0;
+    margin-top: -15px;
+    margin-right: 263px;
+
+}
+
+
+
+
+/****web*****/
+
+
+
+
+
+
+
+
+#contact {
+    width: 1360px;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+
+#contact h6 {
+    font-size: 30px;
+    padding-top: 50px;
+    box-shadow: inset 0px -0.5em 0 0 #e3d8c7;
+    width: fit-content;
+
+}
+
+.circle7 {
+    border: 1px solid #000;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    margin-top: 25px;
+    margin-left: -5px;
+
+}
+
+.line7 {
+    border-left: 1px solid #000;
+    margin-top: 10px;
+    height: 800px;
+
+}
+
+.line8 {
+    border-right: 1px solid #000;
+    height: 800px;
+    margin-top: -825px;
+}
+
+.circle8 {
+    border: 1px solid #000;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    margin: 0 auto;
+    margin-right: -5px;
+    margin-top: -25px;
+}
+
+
+.frame .text {
+    text-align: center;
+    margin-top: -600px;
+    font-size: 18px;
+
+}
+
+.text {
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    text-align: center;
+    transform: translate3d(0, 0, 0);
+    font-size: 24px;
+    text-shadow: 0 1px 0 rgba(black, .1);
+    top: 95%;
+}
+
+.frame .text p {
+    margin-top: 60px;
+
+}
+
+
+
+.last {
+    text-align: center;
+    margin-top: -10px;
+    font-size: 13px;
+    color: #aaa;
+}
+
+
+
+/****footer***/
+
+
+
+#goTop {
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: #000;
+    font-weight: 400;
+    background-color: #fff;
+    text-align: center;
+    line-height: 50px;
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+}
+
+/**top button**/
+
+.bubble {
+    position: absolute;
+    width: 3em;
+    height: 3em;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    background: radial-gradient(ellipse at center, rgba(255, 199, 234, 0.345) 0%, rgba(229, 106, 106, 0) 70%);
+    box-shadow: inset 0 20px 30px rgba(255, 255, 255, 0.4), inset 1em 1em 1em rgba(255, 255, 255, 0.6), 0 1em 2em rgba(0, 0, 0, 0.25);
+}
+
+.bubble:hover {
+    display: none;
+}
+
+.b1 {
+    animation: floatup 10s linear infinite, sideways 5s ease-in-out infinite alternate;
+    left: 10%;
+    top: 100%;
+}
+
+.b2 {
+    animation: floatup 5s linear infinite, sideways 4s ease-in-out 1s infinite alternate;
+    left: 15%;
+    top: 30%;
+    transform: scale(.9);
+}
+
+.b3 {
+    animation: floatup 4s linear infinite, sideways 6s ease-in-out 6s infinite alternate;
+    left: 20%;
+    transform: scale(1.5);
+}
+
+.b4 {
+    animation: floatup 6s linear infinite, sideways 5s ease-in-out 3s infinite alternate;
+    left: 25%;
+    top: 90%;
+    transform: scale(.5);
+}
+
+.b5 {
+    animation: floatup 8s linear infinite, sideways 6s ease-in-out 3s infinite alternate;
+    left: 30%;
+    top: 30%;
+    transform: scale(1.1);
+}
+
+.b6 {
+    animation: floatup 7s linear infinite, sideways 4s ease-in-out 3.5s infinite alternate;
+    left: 40%;
+    top: 50%;
+    transform: scale(.7);
+}
+
+.b7 {
+    animation: floatup 6s linear infinite, sideways 5s ease-in-out 4s infinite alternate;
+    left: 90%;
+    top: 90%;
+    transform: scale(.6);
+}
+
+@keyframes floatup {
+    0% {
+        margin-top: 50%;
+    }
+
+    100% {
+        margin-top: -50%;
+    }
+}
+
+@keyframes sideways {
+    0% {
+        margin-left: 0em;
+    }
+
+    100% {
+        margin-left: 20em;
+    }
+
+    100% {
+        margin-left: 0px;
+    }
+}
+
+
+/**Bubble****/
+
+.scroll-downs {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+
+    width: 34px;
+    height: 55px;
+}
+
+.mousey {
+    width: 3px;
+    padding: 10px 15px;
+    height: 35px;
+    border: 2px solid #aaa;
+    border-radius: 25px;
+    opacity: 0.75;
+    box-sizing: content-box;
+    margin-top: 250px;
+}
+
+.scroller {
+    width: 3px;
+    height: 10px;
+    border-radius: 25%;
+    background-color: #aaa;
+    animation-name: scroll;
+    animation-duration: 2.2s;
+    animation-timing-function: cubic-bezier(.15, .41, .69, .94);
+    animation-iteration-count: infinite;
+}
+
+@keyframes scroll {
+    0% {
+        opacity: 0;
+    }
+
+    10% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateY(15px);
+        opacity: 0;
+    }
+}
+
+
+
+
+
+/**mouse**/
+
+.wave {
+    width: 630px;
+    height: 630px;
+    top: 60%;
+    left: -100px;
+    border-radius: 43%;
+    animation: drift 6s infinite linear;
+    background: linear-gradient(to right, #f2dbd5, #fcdfed);
+    opacity: 60%;
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin-top: -700px;
+    margin-left: 360px;
+
+}
+
+.wave.layer_1 {
+    animation: drift 10s infinite linear;
+    /* background: rgba(255, 255, 255, 0.2); */
+    background: #ca8c8c;
+    opacity: 10%;
+
+}
+
+
+@keyframes drift {
+    100% {
+        transform: rotate(-360deg);
+    }
+}
+
+
+/***wave***/
+
+
+body {
+    background-color: hsla(0, 0%, 0%, 1);
+    margin: 0px;
+    overflow: hidden;
+    font-family: 'Molle', cursive;
+}

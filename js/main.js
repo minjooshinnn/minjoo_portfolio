@@ -74,7 +74,21 @@ $(function () {
 
 
 
+    const body = document.querySelector("body");
 
+    function handleResize() {
+        const length = window.innerWidth;
+
+        if (length < 640) {
+            body.className = "small";
+        } else if (length > 640 && length < 1360) {
+            body.className = "medium";
+        } else if (length > 1360) {
+            body.className = "large";
+        }
+    }
+
+    window.addEventListener("resize", handleResize);
 
 })
 

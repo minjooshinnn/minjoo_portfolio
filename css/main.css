@@ -12,9 +12,10 @@ body {
 }
 
 #title {
-    width: 1360px;
+    width: 1280px;
     margin: 0 auto;
     position: relative;
+    height: auto
 }
 
 .circle1 {
@@ -30,14 +31,14 @@ body {
 .line1 {
     border-left: 1px solid #000;
     margin-top: 10px;
-    height: 550px;
+    height: 400px;
 
 }
 
 .line2 {
     border-right: 1px solid #000;
-    height: 550px;
-    margin-top: -670px;
+    height: 450px;
+    margin-top: -500px;
     margin-right: 15px;
 }
 
@@ -53,7 +54,7 @@ body {
 }
 
 #title h1 {
-    padding-top: 110px;
+    padding-top: 160px;
     font-size: 80px;
     font-weight: 300;
 }
@@ -65,14 +66,14 @@ body {
 #title p {
     font-size: 33px;
     position: absolute;
-    margin-top: 120px;
+    margin-top: 50px;
     margin-left: -10px;
 }
 
 .menu {
     position: absolute;
     right: 30px;
-    margin-top: -400px;
+    margin-top: -350px;
 
 }
 
@@ -114,14 +115,14 @@ body {
 
 
 #about {
-    width: 1360px;
+    width: 1280px;
     margin: 0 auto;
     position: relative;
 }
 
 #about h2 {
     font-size: 30px;
-    padding-top: 50px;
+    padding-top: 160px;
     box-shadow: inset 0px -0.5em 0 0 #d7b5ac;
     width: fit-content;
 
@@ -129,14 +130,14 @@ body {
 
 .myimg {
     margin: 50px;
-    margin-top: 50px;
+    margin-top: 30px;
     position: relative;
 }
 
 
 .myimg2 {
     position: absolute;
-    margin-top: -702px;
+    margin-top: -473px;
     opacity: 1;
 }
 
@@ -167,12 +168,12 @@ body {
 }
 
 .one h3 {
-    font-size: 30px;
+    font-size: 24px;
     text-decoration: underline;
     text-align: center;
-    margin-top: -700px;
+    margin-top: -560px;
     margin-left: 115px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 
 .one p {
@@ -211,12 +212,13 @@ body {
 }
 
 .two h3 {
-    font-size: 30px;
+    font-size: 24px;
     text-decoration: underline;
     text-align: center;
-    margin-top: 70px;
+    margin-top: 50px;
     margin-left: 115px;
-    padding-bottom: 20px;
+    padding-bottom: 5px;
+
 }
 
 .two p {
@@ -230,37 +232,38 @@ body {
 
 .three {
     position: relative;
+
 }
 
 .three h3 {
-    font-size: 30px;
+    font-size: 24px;
     text-decoration: underline;
     text-align: center;
-    margin-top: 70px;
+    margin-top: 50px;
     margin-left: 115px;
     padding-bottom: 20px;
 }
 
 .three p {
-    margin-left: 710px;
+    margin-left: 680px;
     padding-top: 10px;
     color: #aaa;
 }
 
 .progress-bar {
-    width: 200px;
+    width: 160px;
     height: 10px;
     background-color: #dedede;
     position: absolute;
     right: 0;
-    margin-top: -118px;
-    margin-right: 320px;
+    margin-top: -120px;
+    margin-right: 305px;
     border-radius: 8px;
     overflow: hidden;
 }
 
 .progress-bar .progress1 {
-    width: 150px;
+    width: 120px;
     height: 10px;
     padding: 0;
     background-color: #d7b5ac;
@@ -272,20 +275,20 @@ body {
 
 
 .progress-bar2 {
-    width: 200px;
+    width: 160px;
     height: 10px;
     background-color: #dedede;
     position: absolute;
     right: 0;
     margin-top: -90px;
-    margin-right: 320px;
+    margin-right: 305px;
     border-radius: 8px;
     overflow: hidden;
 }
 
 
 .progress-bar2 .progress2 {
-    width: 170px;
+    width: 110px;
     height: 10px;
     padding: 0;
     background-color: #d7b5ac;
@@ -307,19 +310,19 @@ body {
 } */
 
 .progress-bar3 {
-    width: 200px;
+    width: 160px;
     height: 10px;
     background-color: #dedede;
     position: absolute;
     right: 0;
-    margin-top: -62px;
-    margin-right: 320px;
+    margin-top: -60px;
+    margin-right: 305px;
     border-radius: 8px;
     overflow: hidden;
 }
 
 .progress-bar3 .progress3 {
-    width: 170px;
+    width: 100px;
     height: 10px;
     padding: 0;
     background-color: #d7b5ac;
@@ -330,19 +333,19 @@ body {
 
 
 .progress-bar4 {
-    width: 200px;
+    width: 160px;
     height: 10px;
     background-color: #dedede;
     position: absolute;
     right: 0;
-    margin-top: -38px;
-    margin-right: 320px;
+    margin-top: -35px;
+    margin-right: 305px;
     border-radius: 8px;
     overflow: hidden;
 }
 
 .progress-bar4 .progress4 {
-    width: 160px;
+    width: 80px;
     height: 10px;
     padding: 0;
     background-color: #d7b5ac;
@@ -352,19 +355,19 @@ body {
 
 
 .progress-bar5 {
-    width: 200px;
+    width: 160px;
     height: 10px;
     background-color: #dedede;
     position: absolute;
     right: 0;
     margin-top: -10px;
-    margin-right: 320px;
+    margin-right: 305px;
     border-radius: 8px;
     overflow: hidden;
 }
 
 .progress-bar5 .progress5 {
-    width: 140px;
+    width: 120px;
     height: 10px;
     padding: 0;
     background-color: #d7b5ac;
@@ -393,7 +396,7 @@ body {
 
 #video {
     position: relative;
-    width: 1360px;
+    width: 1280px;
     margin: 0 auto;
 
 }
@@ -402,7 +405,7 @@ body {
 
 #video h4 {
     font-size: 30px;
-    padding-top: 50px;
+    padding-top: 100px;
     box-shadow: inset 0px -0.5em 0 0 #ffeeca;
     width: fit-content;
 }
@@ -418,7 +421,7 @@ body {
 
 .line3 {
     border-top: 1px solid #000;
-    width: 1330px;
+    width: 1250px;
     margin-top: -7px;
     margin-left: 30px;
 }
@@ -429,15 +432,15 @@ body {
     width: 10px;
     height: 10px;
     position: absolute;
-    bottom: 20px;
-    right: 0;
+    bottom: 65px;
+    right: -10px;
 }
 
 .line4 {
     border-bottom: 1px solid #000;
-    width: 1320px;
+    width: 1250px;
     position: absolute;
-    bottom: 25px;
+    bottom: 65px;
     margin-left: 10px;
 }
 
@@ -465,7 +468,7 @@ button:hover {
 }
 
 .tab li {
-    font-size: 23px;
+    font-size: 25px;
     margin-right: 12px;
     border-right: 1px solid #000;
     padding-right: 12px;
@@ -481,7 +484,7 @@ button:hover {
     display: none;
     justify-content: space-between;
     align-items: flex-end;
-    margin-top: 600px;
+    margin-top: 520px;
 }
 
 .myvid .cont>div:first-child {
@@ -492,7 +495,7 @@ button:hover {
     width: 100%;
     height: auto;
     position: absolute;
-    margin-top: -500px;
+    margin-top: -350px;
     margin-left: -100px;
     opacity: 35%;
 }
@@ -502,14 +505,14 @@ button:hover {
     width: 200px;
     height: 200px;
     opacity: 50%;
-    margin-top: -600px;
-    margin-left: 450px;
+    margin-top: -480px;
+    margin-left: 520px;
 }
 
 .myvid .cont>div .youtube {
     position: absolute;
-    width: 700px;
-    height: 480px;
+    width: 650px;
+    height: 420px;
     margin-left: 20px;
 }
 
@@ -530,7 +533,7 @@ button:hover {
     margin-bottom: 20px;
     margin-right: -300px;
     margin-left: 300px;
-    margin-top: -505px;
+    margin-top: -400px;
     border-bottom: 1px solid #000;
     padding-bottom: 30px;
     position: relative;
@@ -551,7 +554,7 @@ button:hover {
 
 
 #photo {
-    width: 1360px;
+    width: 1280px;
     margin: 0 auto;
     position: relative;
 }
@@ -567,8 +570,8 @@ button:hover {
 
 .line5 {
     border-top: 1px solid #000;
-    width: 1330px;
-    margin-top: -7px;
+    width: 1250px;
+    margin-top: px;
     margin-left: 30px;
 }
 
@@ -578,23 +581,22 @@ button:hover {
     width: 10px;
     height: 10px;
     position: absolute;
-    bottom: 20px;
+    bottom: 95px;
     right: 0;
 }
 
 .line6 {
     border-bottom: 1px solid #000;
-    width: 1320px;
+    width: 1250px;
     position: absolute;
-    bottom: 25px;
-    margin-left: 10px;
+    bottom: 100px;
 }
 
 
 
 #photo h6 {
     font-size: 30px;
-    padding-top: 50px;
+    padding-top: 100px;
     box-shadow: inset 0px -0.5em 0 0 #e3c7c7;
     width: fit-content;
 }
@@ -609,8 +611,8 @@ button:hover {
 .slider .contents {
     position: relative;
     overflow: hidden;
-    width: 450px;
-    height: 600px;
+    width: 400px;
+    height: 500px;
 }
 
 
@@ -622,9 +624,9 @@ button:hover {
 }
 
 .slider .contents .basic img {
-    width: 450px;
-    height: 550px;
-    margin-top: 50px;
+    width: 400px;
+    height: 450px;
+    margin-top: 30px;
     margin-left: 70px;
 }
 
@@ -638,9 +640,9 @@ button:hover {
     color: #fff;
     opacity: 0;
     transition: all 0.3s;
-    width: 72.7%;
-    height: 100%;
-    margin-top: 50px;
+    width: 400px;
+    height: 450px;
+    margin-top: 30px;
     margin-left: 70px;
 }
 
@@ -649,19 +651,20 @@ button:hover {
 }
 
 .slider .contents .over p {
-    font-size: 18px;
+    font-size: 14px;
     position: absolute;
     top: 50%;
     left: 0;
     transform: translateY(-50%);
     width: 100%;
     text-align: center;
+    padding-top: 15px;
 }
 
 .txt {
     text-align: center;
-    margin-top: 80px;
-    font-size: 18px;
+    margin-top: 40px;
+    font-size: 16px;
 }
 
 .txt span {
@@ -686,17 +689,17 @@ button:hover {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    margin-top: 30px;
+    margin-top: 5px;
 }
 
 .slider .slick-prev {
-    left: -150px;
+    left: -70px;
     z-index: 10;
     transform: rotate(-135deg);
 }
 
 .slider .slick-next {
-    right: -150px;
+    right: -70px;
     transform: rotate(45deg);
 }
 
@@ -709,14 +712,14 @@ button:hover {
 
 
 #web {
-    width: 1360px;
+    width: 1280px;
     margin: 0 auto;
     position: relative;
 }
 
 #web h6 {
     font-size: 30px;
-    padding-top: 50px;
+    padding-top: 100px;
     box-shadow: inset 0px -0.5em 0 0 #ffd6d6;
     width: fit-content;
 
@@ -734,7 +737,7 @@ button:hover {
 
 .line9 {
     border-top: 1px solid #000;
-    width: 1330px;
+    width: 1250px;
     margin-top: -7px;
     margin-left: 30px;
 }
@@ -745,21 +748,21 @@ button:hover {
     width: 10px;
     height: 10px;
     position: absolute;
-    bottom: 20px;
-    right: 0;
+    bottom: 80px;
+    right: -10px;
 }
 
 .line10 {
     border-bottom: 1px solid #000;
-    width: 1320px;
+    width: 1250px;
     position: absolute;
-    bottom: 25px;
+    bottom: 80px;
     margin-left: 10px;
 }
 
 
 .pb {
-    padding-top: 80px;
+    padding-top: 90px;
     font-family: 'KOTRA_BOLD-Bold';
     color: #013586;
     font-size: 26px;
@@ -768,7 +771,7 @@ button:hover {
 
 
 .data {
-    padding-top: 70px;
+    padding-top: 40px;
 }
 
 .data p span {
@@ -784,7 +787,7 @@ button:hover {
 
 
 .color {
-    padding-top: 70px;
+    padding-top: 40px;
 }
 
 .color p span {
@@ -829,7 +832,7 @@ button:hover {
 
 
 .info {
-    padding-top: 70px;
+    padding-top: 40px;
 }
 
 .info p span {
@@ -843,15 +846,15 @@ button:hover {
 
 .moni {
     position: absolute;
-    right: 0;
-    margin-top: -600px;
+    right: 60px;
+    margin-top: -500px;
 }
 
 .moni-t {
     position: absolute;
     right: 0;
-    margin-top: -15px;
-    margin-right: 258px;
+    margin-top: -20px;
+    margin-right: 235px;
 
 }
 
@@ -868,7 +871,7 @@ button:hover {
 
 
 #contact {
-    width: 1360px;
+    width: 1280px;
     margin: 0 auto;
     position: relative;
 }
@@ -876,7 +879,7 @@ button:hover {
 
 #contact h6 {
     font-size: 30px;
-    padding-top: 50px;
+    padding-top: 150px;
     box-shadow: inset 0px -0.5em 0 0 #e3d8c7;
     width: fit-content;
 
@@ -887,22 +890,22 @@ button:hover {
     border-radius: 50%;
     width: 10px;
     height: 10px;
-    margin-top: 25px;
+    margin-top: 35px;
     margin-left: -5px;
 
 }
 
 .line7 {
     border-left: 1px solid #000;
-    margin-top: 10px;
-    height: 800px;
+    margin-top: 30px;
+    height: 520px;
 
 }
 
 .line8 {
     border-right: 1px solid #000;
-    height: 800px;
-    margin-top: -825px;
+    height: 520px;
+    margin-top: -540px;
 }
 
 .circle8 {
@@ -912,27 +915,25 @@ button:hover {
     height: 10px;
     margin: 0 auto;
     margin-right: -5px;
-    margin-top: -25px;
+    margin-top: -15px;
 }
 
 
 .frame .text {
     text-align: center;
-    margin-top: -600px;
-    font-size: 18px;
+    margin-top: -500px;
+    font-size: 16px;
 
 }
 
 .text {
-    position: absolute;
     width: 100%;
     z-index: 1;
     text-align: center;
     transform: translate3d(0, 0, 0);
-    font-size: 24px;
+    font-size: 16px;
     text-shadow: 0 1px 0 rgba(black, .1);
-    top: 95%;
-
+    transform: translateY(50%)
 }
 
 .frame .text p {
@@ -943,7 +944,7 @@ button:hover {
 
 .last {
     text-align: center;
-    margin-top: -10px;
+    margin-top: -20px;
     font-size: 13px;
     color: #aaa;
 }
@@ -1118,18 +1119,16 @@ button:hover {
 /**mouse**/
 
 .wave {
-    width: 630px;
-    height: 630px;
-    top: 60%;
-    left: -100px;
+    width: 430px;
+    height: 480px;
     border-radius: 43%;
     animation: drift 6s infinite linear;
     background: linear-gradient(to right, #f2dbd5, #fcdfed);
     opacity: 60%;
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    margin-top: -700px;
-    margin-left: 360px;
+    margin-top: -550px;
+    margin-left: 420px;
 
 }
 
@@ -1138,6 +1137,7 @@ button:hover {
     /* background: rgba(255, 255, 255, 0.2); */
     background: #ca8c8c;
     opacity: 10%;
+    margin-top: -280px;
 
 }
 

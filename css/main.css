@@ -171,7 +171,7 @@ body {
     font-size: 24px;
     text-decoration: underline;
     text-align: center;
-    margin-top: -560px;
+    margin-top: -500px;
     margin-left: 115px;
     padding-bottom: 10px;
 }
@@ -232,162 +232,47 @@ body {
 
 .three {
     position: relative;
-
+    display: flex;
+    width: 300px;
+    height: 500px;
+    left: 700px;
+    top: 100px;
 }
 
 .three h3 {
     font-size: 24px;
     text-decoration: underline;
     text-align: center;
-    margin-top: 50px;
-    margin-left: 115px;
-    padding-bottom: 20px;
+    margin-left: -40px;
+    position: absolute;
+    top: -60px;
 }
 
 .three p {
-    margin-left: 680px;
+    margin-left: 690px;
     padding-top: 10px;
     color: #aaa;
 }
 
-.progress-bar {
-    width: 160px;
-    height: 10px;
-    background-color: #dedede;
-    position: absolute;
-    right: 0;
-    margin-top: -120px;
-    margin-right: 305px;
-    border-radius: 8px;
-    overflow: hidden;
-}
-
-.progress-bar .progress1 {
-    width: 120px;
-    height: 10px;
-    padding: 0;
-    background-color: #d7b5ac;
-    border-radius: 8px;
-    overflow: hidden;
-
-}
-
-
-
-.progress-bar2 {
-    width: 160px;
-    height: 10px;
-    background-color: #dedede;
-    position: absolute;
-    right: 0;
-    margin-top: -90px;
-    margin-right: 305px;
-    border-radius: 8px;
-    overflow: hidden;
-}
-
-
-.progress-bar2 .progress2 {
-    width: 110px;
-    height: 10px;
-    padding: 0;
-    background-color: #d7b5ac;
-    border-radius: 8px;
-    overflow: hidden;
-    /* animation: stack2 2s 1; */
-}
-
-/* @keyframes stack2 {
-    0% {
-        width: 0;
-        opacity: 0.4;
-    }
-
-    100% {
-        width: 90%;
-        opacity: 1;
-    }
-} */
-
-.progress-bar3 {
-    width: 160px;
-    height: 10px;
-    background-color: #dedede;
-    position: absolute;
-    right: 0;
-    margin-top: -60px;
-    margin-right: 305px;
-    border-radius: 8px;
-    overflow: hidden;
-}
-
-.progress-bar3 .progress3 {
-    width: 100px;
-    height: 10px;
-    padding: 0;
-    background-color: #d7b5ac;
-    border-radius: 8px;
-    overflow: hidden;
-}
-
-
-
-.progress-bar4 {
-    width: 160px;
-    height: 10px;
-    background-color: #dedede;
-    position: absolute;
-    right: 0;
-    margin-top: -35px;
-    margin-right: 305px;
-    border-radius: 8px;
-    overflow: hidden;
-}
-
-.progress-bar4 .progress4 {
+.skillimg1 img {
     width: 80px;
-    height: 10px;
-    padding: 0;
-    background-color: #d7b5ac;
-    border-radius: 8px;
-    overflow: hidden;
+    height: 80px;
+    left: 0;
+    margin-right: 20px;
 }
 
-
-.progress-bar5 {
-    width: 160px;
-    height: 10px;
-    background-color: #dedede;
-    position: absolute;
-    right: 0;
-    margin-top: -10px;
-    margin-right: 305px;
-    border-radius: 8px;
-    overflow: hidden;
+.skillimg2 {
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    padding-right: 20px;
 }
 
-.progress-bar5 .progress5 {
-    width: 120px;
-    height: 10px;
-    padding: 0;
-    background-color: #d7b5ac;
-    border-radius: 8px;
-    overflow: hidden;
-}
-
-
-.graph {
-    position: absolute;
-    right: 0;
-    margin-top: -130px;
-    margin-right: 270px;
-
-}
-
-.graph p {
-    font-size: 14px;
-    padding-top: 12px;
-    color: #aaa;
+.skillimg4 {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    padding-left: 20px;
 }
 
 
@@ -571,7 +456,7 @@ button:hover {
 .line5 {
     border-top: 1px solid #000;
     width: 1250px;
-    margin-top: px;
+    margin-top: -5px;
     margin-left: 30px;
 }
 
@@ -651,7 +536,7 @@ button:hover {
 }
 
 .slider .contents .over p {
-    font-size: 14px;
+    font-size: 17px;
     position: absolute;
     top: 50%;
     left: 0;
